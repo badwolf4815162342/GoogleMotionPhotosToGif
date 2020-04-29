@@ -34,7 +34,7 @@ $ exiftool MVIMG_20200315_182332.jpg
 ```
 ![Console Output](console_output.png)
 
-With this information you could extract the video part of each Motion Photo yourself but Google Takeout has already done it for you in the third file.
+With this information you could extract the video part of each Motion Photo yourself but Google Takeout has already done it for you in the third file. If you want to read more about the structure of Google Motion Photo files, I can recomment the article Working with Motion Photos by Fernando García Álvarez. You can find a lonk in the credits.
 
 * `MVIMG_20200315_182332(1).jpg` - This is the **video part** of your Motion Photo. By renaming it to MVIMG_20200315_182332(1).mp4 you can use it as a normal MP4 and watch it with your usual player. By running the script `motion_photo_to_gif.py` and commenting out line 18 to the end of the script with the `#` symbol you can get this done automatically for all of those video part files.
 
