@@ -1,6 +1,19 @@
 # GoogleMotionPhotosToGif
 ## - Or Google Motion Photos To MP4 To Gif
 
+## Dependencies 
+* Python3 (tested on Python 3.7.3)
+* ffmpeg - https://www.ffmpeg.org/ 
+
+## Installation
+### On Linux
+`$ sudo apt-get install ffmpeg`</br>
+
+### On Mac
+`$ brew install ffmpeg`</br>
+
+## Usage
+
 This small python script can just be executed after being copied in your unzipped 'Takeout' folder that you get from https://takeout.google.com/ where you export all your selected photo folders. Use this line to get all Motion of your Motion Photos as GIFs:
 
 ```
