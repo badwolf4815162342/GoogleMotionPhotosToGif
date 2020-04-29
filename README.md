@@ -20,7 +20,7 @@ This small python script can just be executed after being copied in your unzippe
 $ python3 ./motion_photo_to_gif.py
 ```
 
-# Explanation:
+## Explanation:
 
 Within all your folders, for example `Takeout/Google Photos/2019-03-30` you have normally three files for each normal photo you took:
 
@@ -39,3 +39,16 @@ With this information you could extract the video part of each Motion Photo your
 * `MVIMG_20200315_182332(1).jpg` - This is the **video part** of your Motion Photo. By renaming it to MVIMG_20200315_182332(1).mp4 you can use it as a normal MP4 and watch it with your usual player. By running the script `motion_photo_to_gif.py` and commenting out line 18 to the end of the script with the `#` symbol you can get this done automatically for all of those video part files.
 
 If you run the script without commenting out anything all video part files in all subfolders and albums will be automatically converted from mp4 to gif and additionally get the right date as metadata saved into the new GIF file.
+
+Notice: The JSON and the whole Motion Photo JPG remain untouched, just the automatically extracted video part is converted into the new GIF!
+
+* `MVIMG_20200315_182332.jpg.json` -> `MVIMG_20200315_182332.jpg.json`
+
+* `MVIMG_20200315_182332.jpg` -> `MVIMG_20200315_182332.jpg`
+
+* `MVIMG_20200315_182332(1).jpg` -> `MVIMG_20200315_182332(1).gif`
+
+
+## Credits
+
+https://android.jlelse.eu/working-with-motion-photos-da0aa49b50c
