@@ -1,7 +1,7 @@
 # GoogleMotionPhotosToGif
 ## - Or Google Motion Photos To MP4 To Gif
 
-This small python script can just be executed after beeing copied in your unzipped 'Takeout' folder that you get from https://takeout.google.com/ where you export all your selected photo folders. Use this line to get all Motion of your Motion Photos as GIFs:
+This small python script can just be executed after being copied in your unzipped 'Takeout' folder that you get from https://takeout.google.com/ where you export all your selected photo folders. Use this line to get all Motion of your Motion Photos as GIFs:
 
 ```
 $ python3 ./motion_photo_to_gif.py
@@ -11,7 +11,7 @@ $ python3 ./motion_photo_to_gif.py
 
 Within all your folders, for example `Takeout/Google Photos/2019-03-30` you have normally three files for each normal photo you took:
 
-* `MVIMG_20200315_182332.jpg.json`
+* `MVIMG_20200315_182332.jpg.json` - This file contains **metadata** like the link to the original photo.
 
 * `MVIMG_20200315_182332.jpg` - The **whole motion picture** as JPG wich can be normally opened and viewed but that has the 'Motion'-part, the video saved at the end of the picture part.
 
