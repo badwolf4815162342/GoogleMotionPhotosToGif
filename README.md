@@ -5,11 +5,11 @@
 * Python3 (tested on Python 3.7.3)
 * ffmpeg - https://www.ffmpeg.org/ 
 
-## Installation
-### On Linux
+### Installation
+#### On Linux
 `$ sudo apt-get install ffmpeg`</br>
 
-### On Mac
+#### On Mac
 `$ brew install ffmpeg`</br>
 
 ## Usage
