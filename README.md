@@ -20,7 +20,7 @@ This small python script can just be executed after being copied in your unzippe
 $ python3 ./motion_photo_to_gif.py
 ```
 
-## Explanation:
+## Explanation
 
 Within all your folders, for example `Takeout/Google Photos/2019-03-30` you have normally three files for each normal photo you took:
 
